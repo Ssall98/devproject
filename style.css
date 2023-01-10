@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px ridge;
+    border-radius: 5px;
+    border-bottom: transparent;
+}
+
+.menu{
+    flex-wrap: wrap;
+    width: 30%;
+    color: beige;
+    background-color: #121227;
+}
+
+.logo{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 2px solid whitesmoke;
+    padding-top: 10px;
+}
+
+#logo{
+    width: 20%;
+    height: 12vh;
+    border-radius: 50%;
+    background-image: url(image/9.jpg);
+    background-size: 100% 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 100%;
+    text-align: start;
+    word-wrap: break-word;
+}
+
+a{
+    display: block;
+    text-decoration:none ;
+    color: white;
+    font-size: x-large;
+    padding: 5% 5%;
+}
+
+a:hover{
+    background-color: red;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.corps{
+    width: 70%;
+    color: grey;
+    border-top: 4px solid red;
+}
+
+h1{
+    margin: 10% 0;
+    font-size: xx-large;
+    word-wrap: break-word;
+}
+
+.dash{
+    width: 100%;
+    color: black;
+    font-size: 28px;
+    background-color: rgba(165, 42, 42, 0.15);
+    padding: 1%;
+}
+
+.alerte{
+    width: 90%;
+    margin: 4% 5%;
+    background-color: rgba(165, 42, 42, 0.15);
+    font-size: xx-large;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% 6%;
+
+}
+
+.texte{
+    width: 100%;
+    font-size: xx-large;
+    word-wrap: break-word;
+} 
+
+.texte1{
+    width: 100%;
+    font-size: xx-large;
+} 
+
+.texte2{
+    width: 100%;
+    padding-top: 1%;
+    font-size: xx-large;
+    margin-top: 15px;
+}
+
+img{
+    width: 250px;
+    height: 28vh;
+    border-radius: 5px;
+}
+
+i{
+    padding-left: 15px;
+}
+
+#red{
+    margin: 5px;
+}
